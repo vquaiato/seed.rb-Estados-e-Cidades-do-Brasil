@@ -36,7 +36,7 @@ Usando fora do Mongoid
         class Estado
   
           sigla:string
-	  nome:string
+          nome:string
   
           has_many :cidades
         end
@@ -50,6 +50,7 @@ Usando fora do Mongoid
 
 Executando
 ----------
+Coloque o arquivo *seed.rb*  dentro de *app/lib*.
 Abra seu terminal, entre na pasta do projeto e digite:
 
         rake db:seed
