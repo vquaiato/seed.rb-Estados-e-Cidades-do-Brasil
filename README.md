@@ -50,7 +50,7 @@ Usando fora do Mongoid
 
 Executando
 ----------
-Coloque o arquivo *seed.rb*  dentro de *app/lib*.
+Coloque o arquivo **seed.rb**  dentro de *sua_app/db*.
 Abra seu terminal, entre na pasta do projeto e digite:
 
         rake db:seed
