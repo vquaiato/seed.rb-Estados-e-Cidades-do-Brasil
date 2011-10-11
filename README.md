@@ -1,7 +1,7 @@
 seed.rb cidades e estados do Brasil
 ===================================
 
-Com este seed.rb basta você executar o comando **rake db:seed** para que s estados e cidades sejam inseridos no seu banco de dados.
+Com este seeds.rb basta você executar o comando **rake db:seed** para que s estados e cidades sejam inseridos no seu banco de dados.
 
 Usando com Mongoid
 ------------------
@@ -50,7 +50,7 @@ Usando fora do Mongoid
 
 Executando
 ----------
-Coloque o arquivo **seed.rb**  dentro de *sua_app/db*.
+Coloque o arquivo **seeds.rb**  dentro de *sua_app/db*.
 Abra seu terminal, entre na pasta do projeto e digite:
 
         rake db:seed
